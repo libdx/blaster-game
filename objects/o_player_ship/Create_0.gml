@@ -1,3 +1,2 @@
-show_debug_message("==============")
-show_debug_message(o_player_ship == self)
-show_debug_message("==============")
+// 0 disables sprite animation
+image_speed = 0
