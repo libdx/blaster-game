@@ -21,6 +21,7 @@
     {"id":{"name":"s_stars_close","path":"sprites/s_stars_close/s_stars_close.yy",},"order":12,},
     {"id":{"name":"a_powerup","path":"sounds/a_powerup/a_powerup.yy",},"order":5,},
     {"id":{"name":"a_music","path":"sounds/a_music/a_music.yy",},"order":4,},
+    {"id":{"name":"o_thrust_particle","path":"objects/o_thrust_particle/o_thrust_particle.yy",},"order":1,},
     {"id":{"name":"r_space","path":"rooms/r_space/r_space.yy",},"order":0,},
   ],
   "Options": [
