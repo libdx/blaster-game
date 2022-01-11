@@ -1,7 +1,9 @@
 friction = friction_value;
 image_angle = point_direction(x, y, mouse_x, mouse_y);
 
-var _is_thrusting = mouse_check_button(mb_right);
+var _is_thrusting = 
+	mouse_check_button(mb_right) 
+	and distance_to_point(mouse_x, mouse_y) > thrust_min_distance
 image_index = _is_thrusting;
 
 if _is_thrusting {
