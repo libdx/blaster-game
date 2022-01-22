@@ -1,3 +1,11 @@
+function ship_init() {
+	// 0 disables sprite animation
+	image_speed = 0;
+
+	// set default friction
+	friction = friction_value;
+}
+
 function ship_rotate() {
 	image_angle = point_direction(x, y, mouse_x, mouse_y);
 }
