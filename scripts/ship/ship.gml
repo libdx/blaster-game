@@ -52,6 +52,13 @@ function ship_stop_thrust() {
 	image_index = 0;
 }
 
+function ship_hit(_demage) {
+	armor -= _demage;
+	if armor <= 0 {
+		instance_destroy();
+	}
+}
+
 function ship_follow_user_input() {
 	ship_rotate();
 

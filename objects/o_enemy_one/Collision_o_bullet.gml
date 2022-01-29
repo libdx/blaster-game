@@ -1,0 +1,1 @@
+base_enemy_hit(other.damage);

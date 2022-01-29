@@ -1,0 +1,1 @@
+base_enemy_debounce(other);

@@ -13,7 +13,7 @@
     {"id":{"name":"base_ship","path":"scripts/base_ship/base_ship.yy",},"order":5,},
     {"id":{"name":"s_ship","path":"sprites/s_ship/s_ship.yy",},"order":11,},
     {"id":{"name":"utils","path":"scripts/utils/utils.yy",},"order":1,},
-    {"id":{"name":"o_enemy_one","path":"objects/o_enemy_one/o_enemy_one.yy",},"order":1,},
+    {"id":{"name":"o_enemy_one","path":"objects/o_enemy_one/o_enemy_one.yy",},"order":5,},
     {"id":{"name":"thrust_particle","path":"scripts/thrust_particle/thrust_particle.yy",},"order":3,},
     {"id":{"name":"bullet","path":"scripts/bullet/bullet.yy",},"order":2,},
     {"id":{"name":"enemy","path":"scripts/enemy/enemy.yy",},"order":4,},

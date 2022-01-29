@@ -30,6 +30,7 @@
   ],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"o_base_enemy_ship","path":"objects/o_base_enemy_ship/o_base_enemy_ship.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
     {"varType":1,"value":"-14","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"thrust_offset","tags":[],"resourceType":"GMObjectProperty",},
@@ -40,6 +41,8 @@
   "overriddenProperties": [
     {"propertyId":{"name":"max_speed","path":"objects/o_base_ship/o_base_ship.yy",},"objectId":{"name":"o_base_ship","path":"objects/o_base_ship/o_base_ship.yy",},"value":"5","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"acceleration","path":"objects/o_base_ship/o_base_ship.yy",},"objectId":{"name":"o_base_ship","path":"objects/o_base_ship/o_base_ship.yy",},"value":"0.2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"armor","path":"objects/o_base_ship/o_base_ship.yy",},"objectId":{"name":"o_base_ship","path":"objects/o_base_ship/o_base_ship.yy",},"value":"4","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"damage","path":"objects/o_base_ship/o_base_ship.yy",},"objectId":{"name":"o_base_ship","path":"objects/o_base_ship/o_base_ship.yy",},"value":"5","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Objects",
