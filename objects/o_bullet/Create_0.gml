@@ -1,0 +1,1 @@
+bullet_effect_create();

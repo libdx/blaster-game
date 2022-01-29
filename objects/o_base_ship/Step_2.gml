@@ -1,0 +1,1 @@
+base_ship_prevent_room_escape();
