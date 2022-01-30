@@ -6,7 +6,8 @@ function _base_enemy_rotate() {
 }
 
 function _base_enemy_move() {
-	motion_set(image_angle, min(speed + acceleration, max_speed));
+	motion_add(image_angle, acceleration);
+	speed = min(speed, max_speed);
 }
 
 function base_enemy_follow_player() {
@@ -15,7 +16,8 @@ function base_enemy_follow_player() {
 }
 
 function base_enemy_debounce(_other) {
-	
+	var _debounce_direction = point_direction(_other.x, _other.y, x, y);
+	motion_add(_debounce_direction, acceleration);
 }
 
 function base_enemy_hit(_demage) {

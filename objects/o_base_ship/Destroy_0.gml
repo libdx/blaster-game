@@ -1,0 +1,1 @@
+base_ship_explosion();

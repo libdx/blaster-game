@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_explosion_particle",
-    "path": "sprites/s_explosion_particle/s_explosion_particle.yy",
+    "name": "s_explosion_center",
+    "path": "sprites/s_explosion_center/s_explosion_center.yy",
   },
   "solid": false,
   "visible": true,
@@ -23,15 +23,19 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"scale","path":"objects/o_base_particle/o_base_particle.yy",},"objectId":{"name":"o_base_particle","path":"objects/o_base_particle/o_base_particle.yy",},"value":"random_range(0.25, 0.75);","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_thrust_particle",
+  "name": "o_explosion",
   "tags": [],
   "resourceType": "GMObject",
 }

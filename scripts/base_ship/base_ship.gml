@@ -28,3 +28,7 @@ function base_ship_prevent_room_escape() {
 		vspeed = -vspeed * momentum_loss;
 	}
 }
+
+function base_ship_explosion() {
+	instance_create_layer(x, y, "Effects", o_explosion);
+}
