@@ -1,0 +1,1 @@
+ship_hit(other.damage);

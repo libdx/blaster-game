@@ -52,8 +52,8 @@ function ship_stop_thrust() {
 	image_index = 0;
 }
 
-function ship_hit(_demage) {
-	armor -= _demage;
+function ship_hit(_damage) {
+	armor -= _damage;
 	if armor <= 0 {
 		instance_destroy();
 	}
